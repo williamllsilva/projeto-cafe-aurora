@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset = "utf-8">
+		<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Café Aurora</title>
+	</head>
+
+	<body>
+		<header>
+			<img src="assets/introducion.png" alt="Imagem café">
+			<h1>Café Aurora</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="#inicio">Início</a>
+					</li>
+					<li>
+						<a href="#cardapio">Cardápio</a>
+					</li>
+					<li>
+						<a href="#combos">Combos</a>
+					</li>
+					<li>
+						<a href="#sobrenos">Sobre nós</a>
+					</li>
+					<li>
+						<a href="#nossaequipe">Nossa Equipe</a>
+					</li>
+					<li>
+						<a href="#galeria">Galeria</a>
+					</li>
+					<li>
+						<a href="#avaliacoes">Avaliações</a>
+					</li>
+					<li>
+						<a href="#contato">Contato</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="inicio">
+				<img src="assets/inicio.png" alt="Café Aurora">
+				<h2>Café Aurora O sabor que ilumina o seu dia</h2>
+				<p>
+					No Café Aurora, acreditamos que os melhores momentos começam com um bom café. Cada detalhe é pensado para proporcionar uma experiência especial, desde o aroma dos grãos cuidadosamente selecionados até o sabor de cada bebida preparada com carinho. Seja para começar bem o dia, fazer uma pausa na rotina ou compartilhar bons momentos com quem você gosta, o Café Aurora é o lugar perfeito para apreciar um café e criar boas lembranças.
+				</p>
+			</section>
+			<section id="cardapio">
+				<h2>Confira nossas deliciosas opções</h2>
+				<div class="cafe">
+					<h3>Aurora Clássico</h3>
+					<p>
+						Um café equilibrado, de sabor marcante e aroma envolvente. Perfeito para quem aprecia a tradição em cada xícara.
+					</p>
+					<p class="preco">R$ 7,90</p>
+					<img src="assets/cardapio/cafe1.png" alt="Aurora Clássico">
+				</div>
+				<div class="cafe">
+					<h3>Expresso da Serra</h3>
+					<p>
+						Um café de sabor intenso e aroma marcante, produzido com grãos 100% arábica. Uma combinação equilibrada e encorpada, perfeita para quem aprecia um café forte e cheio de personalidade.
+					</p>
+					<p class="preco">R$ 12,90</p>
+					<img src="assets/cardapio/cafe2.png" alt="Expresso da Serra">
+				</div>
+				<div class="bebidagelada">
+					<h3>Café Gelado</h3>
+					<p>
+						Refrescante, cremoso e cheio de sabor. O equilíbrio perfeito entre café e o frescor para tornar seus dias ainda mais especiais.
+					</p>
+					<p class="preco">R$ 14,90</p>
+					<img src="assets/cardapio/bebidagelada1.png" alt="Café Gelado">
+				</div>
+				<div class="bebidagelada">
+					<h3>Aurora Mocha Gelado</h3>
+					<p>
+						Uma bebida cremosa e refrescante que combina o sabor marcante do café com um toque especial de chocolate. Servida bem gelada, é perfeita para os dias quentes e para quem gosta de uma experiência mais doce e indulgente.
+					</p>
+					<p class="preco">R$ 16,90</p>
+					<img src="assets/cardapio/bebidagelada2.png" alt="Aurora Mocha Gelado">
+				</div>
+				<div class="cha">
+					<h3>Chá Aurora</h3>
+					<p>
+						Uma combinação delicada de ervas e aromas naturais, preparada para proporcionar uma experiência leve, aconchegante e cheia de sabor. Perfeito para acompanhar uma pausa tranquila em qualquer momento do dia.
+					</p>
+					<p class="preco">R$ 9,90</p>
+					<img src="assets/cardapio/cha1.png" alt="Chá Aurora">
+				</div>
+				<div class="cha">
+					<h3>Chá Jardim Aurora</h3>
+					<p>
+						Uma infusão delicada de ervas, flores e aromas naturais, com um sabor leve e envolvente. Uma escolha perfeita para quem busca um momento de tranquilidade e aconchego a qualquer hora do dia.
+					</p>
+					<p class="preco">R$ 9,90</p>
+					<img src="assets/cardapio/cha2.png" alt="Jardim Aurora">
+				</div>
+				<div class="doces">
+					<h3>Doce Aurora</h3>
+					<p>
+						Uma sobremesa cremosa que combina camadas delicadas de creme, café e chocolate, finalizada com uma generosa cobertura de cacau. Uma escolha irresistível para acompanhar seu café e deixar o momento ainda mais especial
+					</p>
+					<p class="preco">R$ 10,90</p>
+					<img src="assets/cardapio/doce1.png" alt="Doce Aurora">
+				</div>
+				<div class="doces">
+					<h3>Tentação de Chocolate</h3>
+					<p>
+						Uma deliciosa sobremesa cremosa, com base crocante, recheio suave e uma generosa cobertura de chocolate. Finalizada com raspas de chocolate, é perfeita para quem não resiste a um doce especial depois do café.
+					</p>
+					<p class="preco">R$ 10,90</p>
+					<img src="assets/cardapio/doce2.png" alt="Tentação de chocolate">
+				</div>
+				<div class="bolos">
+					<h3>Bolo Aurora</h3>
+					<p>
+						Um bolo de chocolate macio e saboroso, recheado com um creme irresistível e coberto com uma generosa camada de chocolate. Finalizado com raspas de chocolate, é a escolha perfeita para acompanhar um café e tornar qualquer pausa mais especial.
+					</p>
+					<p class="preco">R$ 14,90</p>
+					<img src="assets/cardapio/bolo1.png" alt="Bolo Aurora">
+				</div>
+				<div class="bolos">
+					<h3>Bolo Encantado</h3>
+					<p>
+						Um bolo de chocolate fofinho e recheado, coberto com uma deliciosa camada de chocolate e finalizado com raspas crocantes. Uma sobremesa clássica e irresistível, perfeita para acompanhar um café fresquinho no Café Aurora.
+					</p>
+					<p class="preco">R$ 14,90</p>
+					<img src="assets/cardapio/bolo2.png" alt="Bolo Encantado">
+				</div>
+				<div class="salgados">
+					<h3>Sabor da Aurora</h3>
+					<p>
+						Uma seleção de salgados dourados e crocantes, preparados com recheios saborosos e massa leve. Perfeitos para acompanhar um café fresquinho ou para aquela pausa deliciosa durante o dia.
+					</p>
+					<p class="preco">R$ 8,90</p>
+					<img src="assets/cardapio/salgado1.png" alt="Sabor da Aurora">
+				</div>
+				<div class="salgados">
+					<h3>Crocante Aurora</h3>
+					<p>
+						Uma massa leve e dourada, recheada com frango desfiado temperado e um toque especial de ervas. Assado até ficar crocante por fora e macio por dentro, é uma ótima opção para acompanhar um café ou fazer uma pausa saborosa.
+					</p>
+					<p class="preco">R$ 9,90</p>
+					<img src="assets/cardapio/salgado2.png" alt="Crocante Aurora">
+				</div>
+			</section> 
+			<section id="combos">
+				<div class="combo1">
+					<img src="assets/combo1.png" alt="Combo Aurora">
+					<h2>Combo Aurora</h2>
+					<p>
+						Café Aurora + Crocante Aurora + Bolo Aurora
+					</p>
+					<p>
+						Uma combinação perfeita para deixar seu momento ainda mais especial: um café fresquinho, um salgado assado e uma deliciosa fatia de bolo de chocolate. Ideal para acompanhar uma pausa saborosa no Café Aurora.
+					</p>
+					<p class="preco">R$ 24,90</p>
+				</div>
+				<div class="combo2">
+					<img src="assets/combo2.png" alt="Combo Energia Aurora">
+					<h2>Combo Energia Aurora</h2>
+					<p>
+						Café Aurora + Sabor Aurora + Suco Natural Laranja
+					</p>
+					<p>
+						Uma combinação refrescante e saborosa para começar o dia com energia, reunindo café fresquinho, um salgado assado e suco natural de laranja.
+					</p>
+					<p class="preco">R$ 19,90</p>
+				</div>
+				<div class="combo3">
+					<img src="assets/combo3.png" alt="Combo Equilíbrio Aurora">
+					<h2>Combo Equilíbrio Aurora</h2>
+					<p>
+						Café Aurora + Sanduíche Natural + Salada de Frutas
+					</p>
+					<p>
+						Uma combinação leve e saborosa para deixar seu dia mais equilibrado, perfeita para quem busca uma opção prática e cheia de sabor.
+					</p>
+					<p class="preco">R$ 22,90</p>
+				</div>
+			</section>
+			<section id="sobrenos">
+				<h2>Conheça um pouco de nossa história</h2>
+				<div>
+					<img src="assets/sobrenos.png" alt="Nossa historia">
+					<h2>Nossa História</h2>
+					<p>
+						O Café Aurora nasceu de um sonho simples: criar um lugar onde as pessoas pudessem desacelerar, apreciar um bom café e compartilhar momentos especiais.
+
+Tudo começou com uma pequena cafeteria criada por dois amigos apaixonados por café e pela ideia de transformar uma simples pausa do dia em uma experiência memorável. Desde o início, a proposta era oferecer produtos preparados com carinho, utilizando ingredientes selecionados e mantendo aquele clima acolhedor de uma cafeteria de bairro.
+
+Com o passar dos anos, o Café Aurora foi conquistando seus clientes não apenas pelo sabor dos cafés, doces e salgados, mas também pelo ambiente aconchegante e pelo atendimento próximo e acolhedor. Cada cliente passou a fazer parte da história da cafeteria, trazendo consigo encontros, conversas, comemorações e até aqueles momentos tranquilos de quem só queria sentar e tomar um café.
+
+Hoje, o Café Aurora continua com o mesmo propósito que deu origem ao projeto: oferecer mais do que café — criar momentos que merecem ser lembrados.
+					</p>
+					<h3>O que nos torna especiais</h3>
+					<p>
+						No Café Aurora, acreditamos que cada detalhe faz parte da experiência. Por isso, buscamos oferecer produtos preparados com ingredientes selecionados, cafés de qualidade e opções para diferentes momentos do dia, sempre mantendo o sabor e o cuidado em cada preparo.
+
+Nosso diferencial está no atendimento acolhedor, no ambiente aconchegante e na atenção aos pequenos detalhes. Queremos que cada pessoa se sinta à vontade para começar o dia com um bom café, fazer uma pausa durante a rotina ou simplesmente aproveitar bons momentos com quem gosta.
+					</p>
+					<ul>
+						<li>Qualidade em cada xícara</li>
+						<li>Atendimento acolhedor</li>
+						<li>Ingredientes selecionados</li>
+						<li>Ambiente confortável e aconchegante</li>
+						<li>Dedicação em cada detalhe</li>
+						<li>Respeito e proximidade com nossos clientes</li>
+					</ul>
+					<p class="lema">
+						Café Aurora — mais que café, momentos que ficam.
+					</p>
+				</div>
+			</section>
+			<section id="nossaequipe">
+				<h2>Conheça nossos profissionais</h2>
+				<div class="equipe">
+					<img src="assets/equipe/gerente.png" alt="Mariana Oliveira">
+					<h3>Mariana Oliveira — Gerente</h3>
+					<p>
+						Mariana é responsável por coordenar a equipe e garantir que cada detalhe do Café Aurora funcione da melhor maneira. Com experiência em atendimento e gestão, ela acredita que um ambiente acolhedor começa com uma equipe dedicada e que cada cliente merece ser recebido com atenção e carinho.
+					</p>
+				</div>
+				<div class="equipe">
+					<img src="assets/equipe/barista.png" alt="Gabriel Martins">
+					<h3>Gabriel Martins — Barista</h3>
+					<p>
+						Gabriel é responsável pelo preparo dos cafés e bebidas do Café Aurora. Apaixonado por café, ele cuida de cada etapa do preparo com atenção, buscando garantir sabor, qualidade e aquele aroma especial que torna cada xícara uma experiência.
+					</p>
+				</div>
+				<div class="equipe">
+					<img src="assets/equipe/confeiteira.png" alt="Beatriz Almeida">
+					<h3>Beatriz Almeida — Confeiteira</h3>
+					<p>
+						Beatriz é responsável pela produção dos doces e bolos do Café Aurora. Criativa e cuidadosa, ela transforma ingredientes selecionados em sobremesas especiais, cuidando da apresentação e do sabor para que cada doce deixe uma experiência ainda mais marcante
+					</p>
+				</div>
+				<div class="equipe">
+					<img src="assets/equipe/atendente.png" alt="Camila Santos">
+					<h3>Camila Santos — Atendente</h3>
+					<p>
+						Camila é responsável por receber os clientes e garantir um atendimento acolhedor e atencioso. Sempre com simpatia e disposição para ajudar, ela apresenta o cardápio, tira dúvidas e cuida para que cada cliente tenha uma experiência especial desde o primeiro momento no Café Aurora.
+					</p>
+				</div>
+			</section>
+			<section id="galeria">
+				<h2>Galeria</h2>
+				<p>Conheça um pouco no nosso espaço aconchegante.</p>
+				<div class="fotosgaleria">
+					<img src="assets/galeria/galeria1.png" alt="Foto café na mesa">
+					<img src="assets/galeria/galeria2.png" alt="Área interna">
+					<img src="assets/galeria/galeria3.png" alt="Cliente sentados">
+					<img src="assets/galeria/galeria4.png" alt="Atendimento no balcão">
+					<img src="assets/galeria/galeria5.png" alt="Área externa">
+					<img src="assets/galeria/galeria6.png" alt="foto lanche na mesa">
+				</div>
+			</section>
+			<section id="avaliacoes">
+				<h2>Avaliações dos clientes</h2>
+				<p>Saiba um pouco do que os clientes acham da nossa cafeteria.</p>
+				<div class="avaliacoescliente">
+					<h3>Lucas Souza:</h3>
+					<p>
+						“Adorei conhecer o Café Aurora! O café estava delicioso, o ambiente é muito aconchegante e o atendimento foi excelente. O cappuccino e o bolo de chocolate estavam incríveis. Com certeza 	vou voltar e recomendar para meus amigos e familiares!”
+					</p>
+					<span class="nota">Nota: 5</span>
+				</div>
+				<div class="avaliacoescliente">
+					<h3>Fernanda:</h3>
+					<p>
+						“Uma cafeteria muito agradável! O ambiente é bonito e tranquilo, os produtos são deliciosos e o atendimento foi muito atencioso. Adorei o café e a torta de chocolate. Com certeza 	voltarei outras vezes!”
+					</p>
+					<span class="nota">Nota: 5</span>
+				</div>
+				<div class="avaliacoescliente">
+					<h3>Rafael:</h3>
+					<p>
+						“Excelente experiência no Café Aurora! O ambiente é muito aconchegante, os produtos são muito bem preparados e o atendimento é super simpático. Pedi um café com um doce e gostei muito. Um ótimo lugar para relaxar e aproveitar uma boa pausa no dia.”
+					</p>
+					<span class="nota">Nota: 5</span>
+				</div>
+				<div class="avaliacoescliente">
+					<h3>Patricia:</h3>
+					<p>
+						“O Café Aurora me surpreendeu! Tudo estava muito caprichado, desde o ambiente até os produtos. O café estava excelente e o atendimento foi muito gentil e rápido. É um lugar perfeito para conversar, trabalhar ou simplesmente aproveitar um momento tranquilo. Com certeza voltarei!”
+					</p>
+					<span class="nota">Nota: 5</span>
+				</div>
+			</section>
+			<section id="contato">
+				<h2>Entre em contato</h2>
+				<p>Caso queira, deixe seu elogio, sugestão ou reclamação.</p>
+				<form>
+					<label>
+						Nome:
+						<input type="text" required>
+					</label>
+					<label>
+						E-mail:
+						<input type="email" required>
+					</label>
+					<label>
+						Telefone:
+						<input type="tel">
+					</label>
+					<label>
+						Assunto:
+						<input type="text" required>
+					</label>
+					<label>
+						Mensagem:
+						<textarea required></textarea>
+					</label>
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+		</main>
+		<footer>
+			© 2026 Café Aurora
+		</footer>
+	</body>
+</html>
+
