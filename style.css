@@ -1,0 +1,50 @@
+* {
+	margin:0;
+	box-sizing:border-box;
+}
+
+body {
+ 	font-family: "Instrument Serif", serif;
+ 	font-weight: 400;
+  	font-style: normal;
+	background-color:#F5EBD7;
+}
+
+header {
+	background-color: #E6D3B3;
+	padding:10px;
+}
+
+header img{
+	width:100%;
+	max-height:350px;
+	border-radius:5px;
+	object-fit:cover;
+}
+
+header h1 {
+	width:100%;
+	text-align:center;
+	font-size:45px;
+	letter-spacing:7px;
+	margin-top:3px;
+}
+
+header ul {
+	width:100%;
+	display:flex;
+	justify-content:center;
+	gap:50px;
+	font-size:35px;
+	list-style:none;
+}
+
+header a {
+	text-decoration:none;
+	color: #4A2C1A;
+	font-weight: bold;	
+}
+
+header a:hover {
+	color:#8B5E3C;
+}
